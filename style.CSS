@@ -1,0 +1,1066 @@
+body {
+    background-color: #1b1a1d;
+    margin-top: 0;
+    font-family: Rubik, sans-serif;
+    width: 100%;
+    margin-left: 0;
+}
+
+.navigation {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(22, 21, 21);
+    display: flex;
+}
+
+.bgheader {
+    width: 260px;
+    height: 108%;
+    clip-path: polygon(0 0, 100% 0, 81% 100%, 19% 100%);
+    background-image: url(pic/logo-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-left: 36%;
+    margin-top: 8%;
+}
+
+i.fa-search {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.search :hover {
+    color: red;
+    cursor: pointer;
+}
+
+.skew1 {
+    transform: skew(15deg);
+    border-left: 1px solid rgba(203, 203, 203, .1);
+}
+
+.text1 {
+    display: flex;
+    border-bottom: 1px solid rgba(203, 203, 203, .1);
+}
+
+.follow {
+    color: rgb(168, 164, 164);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+    cursor: default;
+    width: 100px;
+}
+
+.fa-facebook-square {
+    color: white;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+.fa-twitter-square {
+    color: white;
+    margin-right: 30px;
+}
+
+.fa-youtube-play {
+    color: white;
+    margin-right: 30px;
+}
+
+.fa-instagram {
+    color: white;
+    margin-right: 30px;
+}
+
+.fa-twitch {
+    color: white;
+    margin-right: 0px;
+}
+
+.socialicon {
+    margin-top: 15px;
+    width: 260px;
+}
+
+.socialicon :hover {
+    color: red;
+}
+
+.nav-menu1 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 0px;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.pages {
+    margin-right: 30px;
+}
+
+.skew2 {
+    transform: skew(-15deg);
+    border-left: 1px solid rgba(203, 203, 203, .1);
+}
+
+.text2 {
+    border-bottom: 1px solid rgba(203, 203, 203, .1);
+    color: rgb(153, 150, 150);
+    font-size: 15px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-top: 3px;
+    cursor: default;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none outside none;
+}
+
+.nav-menu2 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.photo {
+    height: 500px;
+    width: 100%;
+    background-image: url(pic/h1-slider-2-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ysoj {
+    font-family: Rubik, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.red {
+    border-top: 50px solid #ff0e1f;
+    border-bottom: 40px solid transparent;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    height: 30%;
+    width: 13%;
+    display: inline;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.buy {
+    position: absolute;
+    bottom: 150px;
+    left: 35px;
+}
+
+.black {
+    background: url(pic/p3-background-img-1.jpg);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.img1 :hover {
+    transform: translate(-50% -100%);
+    transition: transform 1s infinite;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GAMER1 {
+    font-size: 20px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    margin-top: 100px;
+}
+
+.op {
+    color: red;
+
+}
+
+.line1 {
+    border-bottom: 1px solid white;
+    width: 100px;
+}
+
+.line2 {
+    border-top: 3px solid white;
+    width: 50px;
+}
+
+.GAMER2 {
+    color: rgb(201, 198, 198);
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.esports {
+    display: flex;
+    margin-top: 100px;
+}
+
+.photo1 {
+    overflow: hidden;
+}
+
+.photo1 :hover {
+    transform: scale(1.1);
+}
+
+.photo2 {
+    overflow: hidden;
+}
+
+.photo2 :hover {
+    transform: scale(1.1);
+}
+
+.photo3 {
+    overflow: hidden;
+}
+
+.photo3 :hover {
+    transform: scale(1.1);
+}
+
+.class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.livestream {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.line3 {
+    border-bottom: 1px solid white;
+    width: 100px;
+}
+
+.line4 {
+    border-top: 3px solid white;
+    width: 50px;
+}
+
+.box {
+    display: flex;
+    height: 60px;
+    width: 79%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+}
+
+.twitch {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.youtube {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.mixer {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.box2{
+    width: 80%;
+}
+
+.B1 {
+    width: 100%;
+    height: 40em;
+    display: flex;
+    overflow: hidden;
+}
+
+.B1 :hover {
+    transform: scale(1.05);
+}
+
+i.fa-play {
+    font-size: 80px;
+    position: relative;
+    top: 0px;
+    right: 50%;
+}
+
+.B2 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.B2 :hover {
+    transform: scale(1.01);
+}
+
+.p1 {
+    display: inline;
+}
+
+.p2 {
+    display: inline;
+}
+
+.expo {
+    background-image: url(pic/h1-background-img-1.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    display: flex;
+}
+
+.game-expo {
+    height: 500px;
+}
+
+.up {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    color: white;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.schedule {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #ff0e1f;
+    background-color: #ff0e1f;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.matches {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.line5 {
+    border-bottom: 1px solid white;
+    width: 100px;
+}
+
+.line6 {
+    border-top: 3px solid white;
+    width: 50px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.trending {
+    margin-top: 100px;
+    height: 50px;
+    width: 80%;
+    background-color: #101011;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.trend {
+    display: flex;
+    gap: 3%;
+}
+
+.style {
+    height: 300px;
+    width: 80%;
+    background-color: #17161a;
+}
+
+.amplifier {
+    height: 200px;
+    width: 88.8%;
+    background-color: #101011;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.amp, .bat, .kai, .gun {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+
+.para, .par {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style :hover {
+    background: linear-gradient(to right, #101011, #380f0b, #4b0c09, #380f0b, #101011);
+}
+
+.triarchy {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.vs1 {
+    display: inline-block;
+}
+
+.vs3 {
+    display: inline-block;
+}
+
+.vs4 {
+    display: inline-block;
+}
+
+.warmongers {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.na {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.i1 {
+    color: #ffffffa1;
+    font-family: "Rubik", sans-serif;
+}
+
+.stream1 {
+    font-size: 15px;
+    color: #ffffffbb;
+    font-family: "Rubik", sans-serif;
+}
+
+.year10 {
+    color: #fff;
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+.battles {
+    height: 200px;
+    width: 88.8%;
+    background-color: #101011;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.teuton-sons {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+.vs2 {
+    display: inline-block;
+}
+
+.eldritch {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.lb {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.i2 {
+    color: #ffffffa1;
+    font-family: "Rubik", sans-serif;
+}
+
+.stream2 {
+    font-size: 15px;
+    color: #ffffffbb;
+    font-family: "Rubik", sans-serif;
+}
+
+.creek {
+    height: 200px;
+    width: 88.8%;
+    background-color: #101011;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.kaiju-red {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.lionhearts {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.bco {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.year {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+}
+
+.i3 {
+    color: #ffffffa1;
+    font-family: "Rubik", sans-serif;
+}
+
+.stream3 {
+    font-size: 15px;
+    color: #ffffffbb;
+    font-family: "Rubik", sans-serif;
+}
+
+.gundown {
+    height: 200px;
+    width: 88.8%;
+    background-color: #101011;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.kaiju-red1 {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.kaiju-red2 {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.vs {
+    display: inline-block;
+}
+
+.hacksaw {
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+}
+
+.ncg {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+.ten {
+    font-size: 20px;
+    color: #ffffffbb;
+    font-family: "Rubik", sans-serif;
+}
+
+.space {
+    margin-top: 90%;
+}
+
+.parallax {
+    background-image: url(pic/h1-parallax-2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    overflow: -moz-hidden-unscrollable;
+    position: static;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    opacity: 2;
+}
+
+.no1, .no3, .no5, .no7 {
+    font-size: 70px;
+    font-weight: 750;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.no2, .no4, .no6, .no8 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .09em;
+    font-family: "Rubik", sans-serif;
+}
+
+.msg-box {
+    width: 100%;
+    display: flex;
+}
+
+.e-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.contact {
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.line7 {
+    border-bottom: 2px solid white;
+    width: 100px;
+}
+
+.line8 {
+    border-top: 3px solid white;
+    width: 50px;
+}
+
+.amet {
+    font-size: 20px;
+    color: #ffffffb0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.locate {
+    display: flex;
+}
+
+.fa-location-arrow {
+    color: white;
+}
+
+.location {
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 30px;
+}
+
+.location :hover {
+    color: red;
+}
+
+.mail {
+    display: flex;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+.example {
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 30px;
+}
+
+.example :hover {
+    color: red;
+}
+
+.msg {
+    width: 50%;
+}
+
+.name {
+    height: 50px;
+    width: 70%;
+    font-size: 15px;
+    padding-left: 30px;
+    background-color: #292729;
+    position: relative;
+    outline-color: #242124;
+    border: 1px solid transparent;
+    margin-top: 250px;
+}
+
+.address {
+    margin-top: 20px;
+    height: 50px;
+    width: 70%;
+    font-size: 15px;
+    padding-left: 30px;
+    background-color: #292729;
+    position: relative;
+    outline-color: #242124;
+    border: 1px solid transparent;
+}
+
+.message {
+    margin-top: 20px;
+    height: 250px;
+    width: 70%;
+    font-size: 15px;
+    padding-left: 30px;
+    background-color: #292729;
+    position: relative;
+    outline-color: #242124;
+    border: 1px solid transparent;
+}
+
+.btn {
+    background-color: red;
+    width: 75%;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.gallery {
+    margin-top: 200px;
+    width: 100%;
+    justify-content: space-around;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.G1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+.G1 :hover {
+    transform: scale(1.01);
+    overflow: hidden;
+}
+
+.G2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: px;
+    margin-right: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.G2 :hover {
+    transform: scale(1.01);
+}
+
+.ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.line9 {
+    border-bottom: 1px solid white;
+    width: 100px;
+}
+
+.line10 {
+    border-top: 3px solid white;
+    width: 50px;
+}
+
+.photo4 {
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.shopping {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.T {
+    display: flex;
+    margin-left: 60px;
+}
+
+.RM {
+    display: flex;
+}
+
+.R {
+    display: flex;
+}
+
+.C {
+    display: flex;
+}
+
+.TS-EQ :hover {
+    color: red;
+}
+
+.TS {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    width: 100px;
+}
+
+.EQ {
+    color: #ffffffd7;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.TS-EQ1 {
+    display: inline;
+}
+
+.TS-EQ2 {
+    display: inline;
+}
+
+.TS-EQ3 {
+    display: inline;
+}
+
+.TS-EQ4 {
+    display: inline;
+}
+
+.dlr {
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    margin-right: 30px;
+}
+
+s {
+    color: #ffffffbb;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline;
+}
+
+.P {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.dollar {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.DLR {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.DOLLAR {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.footer {
+    margin-top: 150px;
+    background-image: url(pic/footer.jpg);
+    height: 400px;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.f-m {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    border-bottom: 10px solid #000;
+}
+
+li.foot {
+    margin-top: 80px;
+}
+
+.foot a {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.letter {
+    margin-left: 200px;
+    width: 45%;
+    border-bottom: 2px solid white;
+}
+
+.news {
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.fa-envelope-o {
+    color: #fff;
+    margin-left: 600px;
+    font-weight: 800;
+}
+
+.fa-envelope-o:hover {
+    color: red;
+}
+
+.widget {
+    margin-left: 40%;
+    margin-top: 90px;
+}
+
+.widget :hover {
+    color: red;
+}
+
+.skew3 {
+    transform: skew(10deg);
+    border-left: 2px solid black;
+    margin-left: 150px;
+    width: 87%;
+}
+
+.skew4 {
+    transform: skewX(-15deg);
+    border-right: 2px solid black;
+    margin-right: 120px;
+}

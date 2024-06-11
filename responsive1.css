@@ -1,0 +1,81 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .navigation, .photo, .black, .text3, .esports, .class  {
+        width: 133%;
+    }
+
+    .expo, .parallax, .msg-box, .gallery, .ex, .footer {
+        width: 133%;
+    }
+
+    .matches{
+        width: 133%;
+        height: 70pc;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:991px) {
+    .navigation, .photo, .black, .text3, .esports, .class  {
+        width: 165%;
+    }
+
+    .expo, .parallax, .msg-box, .gallery, .ex, .footer {
+        width: 165%;
+    }
+
+    .matches{
+        width: 168%;
+        height: 80pc;
+    }
+
+    .shopping{
+        width: 105%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .navigation, .photo, .black, .text3, .esports, .class  {
+        width: 230%;
+    }
+
+    .expo, .parallax, .msg-box, .gallery, .ex, .footer {
+        width: 230%;
+    }
+
+    .matches{
+        width: 224%;
+        height: 100pc;
+    }
+
+    .photo4{
+        width: 105%;
+    }
+
+    .shopping{
+        width: 105%;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:575px) {
+    .navigation, .photo, .black, .text3, .esports, .class  {
+        width: 360%;
+    }
+
+    .expo, .msg-box, .gallery, .ex, .footer {
+        width: 360%;
+    }
+
+    .parallax{
+        width: 360%;
+        height: 700px;
+    }
+
+    .matches{
+        width: 360%;
+        height: 130pc;
+    }
+
+    .photo4{
+        width: 100%;
+    }
+
+    .shopping{
+        width: 100%;
+    }
+}
