@@ -52,23 +52,32 @@
         width: 105%;
     }
 }
-@media only screen and (min-width:360px) and (max-width:575px) {
+@media only screen and (min-width:300px) and (max-width:575px) {
     .navigation, .photo, .black, .text3, .esports, .class  {
-        width: 360%;
+        width: 400%;
     }
 
     .expo, .msg-box, .gallery, .ex, .footer {
-        width: 360%;
+        width: 400%;
     }
 
     .parallax{
-        width: 360%;
+        width: 400%;
         height: 700px;
     }
 
     .matches{
-        width: 360%;
+        width: 400%;
         height: 130pc;
+    }
+
+    .trending{
+        width: 86%;
+        margin-left: 6%;
+    }
+
+    .amplifier, .battles, .creek, .gundown{
+        width: 95.8%;
     }
 
     .photo4{
