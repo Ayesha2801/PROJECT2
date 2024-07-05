@@ -113,6 +113,70 @@ i.fa-search {
     font-size: 10px;
 }
 
+.nav3{
+    display: none;
+}
+
+.hamburger-icon {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+.hamburger-icon input[type="checkbox"] {
+    appearance: none;
+}
+
+@media only screen and (max-width:575px) {
+    header {
+        display: block;
+    }
+
+    .nav3{
+        /* display: flex;
+        flex-direction: column; */
+        height: 0;
+    }
+
+    .hamburger-icon {
+        display: block;
+        position: absolute;
+        top: 15%;
+        right: 0;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]) .fa-times {
+        display: none;
+    }
+
+    .hamburger-icon .fa-bars,
+    .hamburger-icon .fa-times {
+        color: #fff;
+        font-size: 1rem;
+        cursor: pointer;
+        display: block;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .nav3 {
+        height: auto;
+        font-size: 30px;
+        background-color: rgb(22, 21, 21);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transition: .5s ease-in-out;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-times {
+        display: inline-block;
+    }
+}
+
 .pages {
     margin-right: 30px;
 }
@@ -888,7 +952,6 @@ ul li {
     color: white;
     font-family: "Rubik", sans-serif;
     font-size: 30px;
-    margin-top: 150px;
 }
 
 .line9 {
@@ -903,9 +966,10 @@ ul li {
 
 .photo4 {
     display: flex;
-    margin-top: 200px;
-    width: 100%;
+    margin-top: 50px;
+    width: 83%;
     justify-content: center;
+    gap: 2%;
 }
 
 .shopping {
