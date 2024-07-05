@@ -1,0 +1,375 @@
+@media only screen and (min-width:992px) and (max-width:1360px) {
+    .left {
+        width: 25%;
+    }
+
+    .shirt,
+    .mouse,
+    .CD,
+    .laptop {
+        width: 100%;
+    }
+
+    .S1,
+    .S2,
+    .S3,
+    .S4 {
+        width: 200px;
+    }
+
+    .T,
+    .RM,
+    .R,
+    .C {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    .container {
+        position: absolute;
+        left: 40%;
+    }
+
+    .left,
+    .right {
+        display: none;
+    }
+
+    .black {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .esports {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    h1,
+    .GAMER2 {
+        text-align: center;
+    }
+
+    .p1 img,
+    .p2 img {
+        width: 100%;
+    }
+
+    .style {
+        height: auto;
+    }
+
+    .amplifier,
+    .battles,
+    .creek,
+    .gundown {
+        width: 80%;
+    }
+
+    .amp,
+    .bat,
+    .kai,
+    .gun {
+        display: none;
+    }
+
+    .photo4 {
+        flex-wrap: wrap;
+    }
+
+    .shirt,
+    .mouse,
+    .CD,
+    .laptop {
+        width: 100%;
+    }
+
+    .S1,
+    .S2,
+    .S3,
+    .S4 {
+        width: 50%;
+    }
+
+    .T,
+    .RM,
+    .R,
+    .C {
+        width: 25%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    ul.f-m {
+        flex-wrap: wrap;
+    }
+
+    .letter {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+
+    .left,
+    .right {
+        display: none;
+    }
+
+    .ysoj {
+        text-align: center;
+    }
+
+    .red {
+        width: 20%;
+    }
+
+    .black {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .p1 img,
+    .p2 img {
+        width: 100%;
+    }
+
+    .esports {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .style {
+        height: auto;
+    }
+
+    .amp,
+    .bat,
+    .kai,
+    .gun {
+        display: none;
+    }
+
+    .amplifier,
+    .battles,
+    .creek,
+    .gundown {
+        width: 71.4%;
+    }
+
+    .msg-box {
+        flex-direction: column;
+    }
+
+    .e-mail,
+    .msg {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .photo4 {
+        flex-wrap: wrap;
+    }
+
+    .shirt,
+    .mouse,
+    .CD,
+    .laptop {
+        width: 100%;
+    }
+
+    .S1,
+    .S2,
+    .S3,
+    .S4 {
+        width: 50%;
+    }
+
+    .T,
+    .RM,
+    .R,
+    .C {
+        width: 25%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    ul.f-m {
+        flex-wrap: wrap;
+    }
+
+    .letter {
+        margin-left: 100px;
+    }
+
+    .fa-envelope-o {
+        margin-left: 5%;
+    }
+
+    .widget {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:575px) {
+    .container {
+        position: absolute;
+        left: 25%;
+    }
+
+    i.fa-search {
+        display: none;
+    }
+
+    .left,
+    .right {
+        display: none;
+    }
+
+    .ysoj {
+        text-align: center;
+    }
+
+    .red {
+        width: 20%;
+    }
+
+    .black {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .esports {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    i.fa-play {
+        display: none;
+    }
+
+    .p1 img,
+    .p2 img {
+        width: 100%;
+    }
+
+    .expo {
+        height: auto;
+    }
+
+    .game-expo {
+        display: none;
+    }
+
+    .view {
+        width: 100%;
+    }
+
+    .up {
+        width: 100%;
+    }
+
+    .style {
+        height: auto;
+    }
+
+    .amp,
+    .bat,
+    .kai,
+    .gun {
+        display: none;
+    }
+
+    .amplifier,
+    .battles,
+    .creek,
+    .gundown {
+        width: 62.4%;
+    }
+
+    .number {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .msg-box {
+        flex-direction: column;
+    }
+
+    .e-mail,
+    .msg {
+        width: 100%;
+    }
+
+    .photo4 {
+        flex-wrap: wrap;
+    }
+
+    .shirt,
+    .mouse,
+    .CD,
+    .laptop {
+        width: 100%;
+    }
+
+    .S1,
+    .S2,
+    .S3,
+    .S4 {
+        width: 100%;
+    }
+
+    .T,
+    .RM,
+    .R,
+    .C {
+        width: 25%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    ul.f-m {
+        flex-wrap: wrap;
+    }
+
+    .letter {
+        margin-left: 0;
+    }
+
+    .fa-envelope-o {
+        margin-left: 5%;
+    }
+
+    .widget {
+        margin-left: 0;
+    }
+}
