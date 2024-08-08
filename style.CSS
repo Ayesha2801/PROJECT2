@@ -29,6 +29,10 @@ body {
     margin-top: 8%;
 }
 
+.search {
+    width: 10%;
+}
+
 i.fa-search {
     color: white;
     font-size: 20px;
@@ -47,6 +51,12 @@ i.fa-search {
     border-left: 1px solid rgba(203, 203, 203, .1);
 }
 
+ul {
+    display: flex;
+    font-size: 12px;
+    gap: 5rem;
+}
+
 .left {
     width: 30%;
 }
@@ -62,7 +72,7 @@ i.fa-search {
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: default;
-    width: 37px;
+    width: 80px;
 }
 
 .fa-facebook-square {
@@ -113,7 +123,7 @@ i.fa-search {
     font-size: 10px;
 }
 
-.nav3{
+.nav3 {
     display: none;
 }
 
@@ -127,12 +137,12 @@ i.fa-search {
     appearance: none;
 }
 
-@media only screen and (max-width:575px) {
+@media only screen and (max-width:769px) {
     header {
         display: block;
     }
 
-    .nav3{
+    .nav3 {
         /* display: flex;
         flex-direction: column; */
         height: 0;
@@ -233,7 +243,7 @@ i.fa-search {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     height: 30%;
-    width: 13%;
+    width: 14%;
     display: inline;
     color: white;
     font-size: 15px;
@@ -310,26 +320,14 @@ i.fa-search {
     margin-top: 100px;
 }
 
-.photo1 {
-    overflow: hidden;
-}
-
-.photo1 :hover {
-    transform: scale(1.1);
-}
-
-.photo2 {
-    overflow: hidden;
-}
-
-.photo2 :hover {
-    transform: scale(1.1);
-}
-
+.photo1,
+.photo2,
 .photo3 {
     overflow: hidden;
 }
 
+.photo1 :hover,
+.photo2 :hover,
 .photo3 :hover {
     transform: scale(1.1);
 }
@@ -429,6 +427,14 @@ i.fa-play {
     display: inline;
 }
 
+.pic1 {
+    width: 49%;
+}
+
+.pic2 {
+    width: 50%;
+}
+
 .expo {
     background-image: url(pic/h1-background-img-1.jpg);
     height: 600px;
@@ -478,6 +484,7 @@ i.fa-play {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 h1 {
@@ -522,7 +529,7 @@ ul li {
 
 .amplifier {
     height: 200px;
-    width: 88.8%;
+    width: 89%;
     background-color: #101011;
     padding: 50px 60px;
     display: flex;
@@ -576,6 +583,7 @@ ul li {
 .warmongers {
     display: inline-block;
     font-family: "Rubik", sans-serif;
+    text-align: center;
 }
 
 .na {
@@ -605,7 +613,7 @@ ul li {
 
 .battles {
     height: 200px;
-    width: 88.8%;
+    width: 89%;
     background-color: #101011;
     padding: 50px 60px;
     display: flex;
@@ -650,7 +658,7 @@ ul li {
 
 .creek {
     height: 200px;
-    width: 88.8%;
+    width: 89%;
     background-color: #101011;
     padding: 50px 60px;
     display: flex;
@@ -696,7 +704,7 @@ ul li {
 
 .gundown {
     height: 200px;
-    width: 88.8%;
+    width: 89%;
     background-color: #101011;
     padding: 50px 60px;
     display: flex;
@@ -759,7 +767,7 @@ ul li {
     opacity: 2;
 }
 
-.number{
+.number {
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -966,8 +974,9 @@ ul li {
 
 .photo4 {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
-    width: 83%;
+    width: 95%;
     justify-content: center;
     gap: 2%;
 }
@@ -978,20 +987,18 @@ ul li {
     width: 100%;
 }
 
-.T {
-    display: flex;
+.S1 {
+    width: 300px;
+    height: 300px;
 }
 
-.RM {
-    display: flex;
-}
-
-.R {
-    display: flex;
-}
-
+.T,
+.RM,
+.R,
 .C {
     display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 .TS-EQ :hover {
@@ -1011,25 +1018,15 @@ ul li {
     font-weight: 300;
 }
 
-.TS-EQ1 {
-    display: inline;
-}
-
-.TS-EQ2 {
-    display: inline;
-}
-
-.TS-EQ3 {
-    display: inline;
-}
-
+.TS-EQ1,
+.TS-EQ2,
+.TS-EQ3,
 .TS-EQ4 {
     display: inline;
 }
 
 .dlr {
     margin-top: 40px;
-    /* margin-left: 80px; */
     display: flex;
     margin-right: 30px;
 }
@@ -1083,10 +1080,11 @@ s {
 ul.f-m {
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 100px;
     padding-bottom: 80px;
     border-bottom: 10px solid #000;
+    gap: 0rem;
 }
 
 li.foot {
@@ -1101,9 +1099,10 @@ li.foot {
 }
 
 .letter {
-    margin-left: 200px;
-    width: 45%;
-    border-bottom: 2px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
 }
 
 .news {
@@ -1115,7 +1114,7 @@ li.foot {
 
 .fa-envelope-o {
     color: #fff;
-    margin-left: 600px;
+    margin-top: 30px;
     font-weight: 800;
 }
 

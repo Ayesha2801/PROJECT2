@@ -1,27 +1,24 @@
 @media only screen and (min-width:992px) and (max-width:1360px) {
-    .left {
-        width: 25%;
+    .bgheader{
+        width: 170px;
     }
 
-    .shirt,
-    .mouse,
-    .CD,
-    .laptop {
+    .logo{
+        height: 50px;
+        width: 50px;
+        margin-top: 2rem;
+    }
+
+    .nav-menu1 {
+        margin-left: 0;
+    }
+
+    .buy {
+        left: 25px;
+    }
+
+    .S1 {
         width: 100%;
-    }
-
-    .S1,
-    .S2,
-    .S3,
-    .S4 {
-        width: 200px;
-    }
-
-    .T,
-    .RM,
-    .R,
-    .C {
-        width: 25%;
     }
 }
 
@@ -79,27 +76,6 @@
         flex-wrap: wrap;
     }
 
-    .shirt,
-    .mouse,
-    .CD,
-    .laptop {
-        width: 100%;
-    }
-
-    .S1,
-    .S2,
-    .S3,
-    .S4 {
-        width: 50%;
-    }
-
-    .T,
-    .RM,
-    .R,
-    .C {
-        width: 25%;
-    }
-
     .footer {
         height: auto;
     }
@@ -107,14 +83,9 @@
     ul.f-m {
         flex-wrap: wrap;
     }
-
-    .letter {
-        margin-left: 100px;
-    }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
-
     .left,
     .right {
         display: none;
@@ -179,31 +150,11 @@
     .msg {
         width: 100%;
         margin-top: 100px;
+        text-align: center;
     }
 
     .photo4 {
         flex-wrap: wrap;
-    }
-
-    .shirt,
-    .mouse,
-    .CD,
-    .laptop {
-        width: 100%;
-    }
-
-    .S1,
-    .S2,
-    .S3,
-    .S4 {
-        width: 50%;
-    }
-
-    .T,
-    .RM,
-    .R,
-    .C {
-        width: 25%;
     }
 
     .footer {
@@ -212,10 +163,6 @@
 
     ul.f-m {
         flex-wrap: wrap;
-    }
-
-    .letter {
-        margin-left: 100px;
     }
 
     .fa-envelope-o {
@@ -234,7 +181,8 @@
         left: 10%;
     }
 
-    .skew1, .skew2{
+    .skew1,
+    .skew2 {
         display: none;
     }
 
@@ -245,6 +193,11 @@
     .left,
     .right {
         display: none;
+    }
+
+    .buy{
+        bottom: 85px;
+        left: 0;
     }
 
     .ysoj {
@@ -270,6 +223,10 @@
         justify-content: center;
     }
 
+    .GAMER2{
+        padding: 5%;
+    }
+
     .box {
         flex-direction: column;
         height: auto;
@@ -277,6 +234,10 @@
 
     i.fa-play {
         display: none;
+    }
+
+    .B1{
+        height: 200px;
     }
 
     .p1 img,
@@ -321,6 +282,7 @@
     .number {
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .msg-box {
@@ -330,31 +292,7 @@
     .e-mail,
     .msg {
         width: 100%;
-    }
-
-    .photo4 {
-        flex-wrap: wrap;
-    }
-
-    .shirt,
-    .mouse,
-    .CD,
-    .laptop {
-        width: 100%;
-    }
-
-    .S1,
-    .S2,
-    .S3,
-    .S4 {
-        width: 100%;
-    }
-
-    .T,
-    .RM,
-    .R,
-    .C {
-        width: 25%;
+        text-align: center;
     }
 
     .footer {
@@ -375,5 +313,6 @@
 
     .widget {
         margin-left: 0;
+        text-align: center;
     }
 }
